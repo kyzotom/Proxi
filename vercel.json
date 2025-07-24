@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/streamuj-proxy.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/streamuj-proxy", "dest": "api/streamuj-proxy.js" }
+  ]
+}
